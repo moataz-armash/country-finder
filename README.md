@@ -29,6 +29,10 @@ The **Country Finder App** is a React-based web application that allows users to
 
 ---
 
+## Screenshots
+
+![Screenshot of Country App](src/assets/country-app.png)
+
 ## Installation and Setup
 
 1. Clone the repository:
@@ -49,40 +53,48 @@ The **Country Finder App** is a React-based web application that allows users to
     http://localhost:5173
    ```
 
-##  How to Use
+## How to Use
+
 1.Enter the name of a country in the search bar.
 2.Click the Search button.
 3.View the country's details, including:
-    Name
-    Flag
-    Capital
-    Population
-    Timezones
-    Currencies
+Name
+Flag
+Capital
+Population
+Timezones
+Currencies
 If the country is not found, an error message will be displayed.
+
 ## Folder Structure
+
 src/
-├── App.jsx         # Main application component
-├── form.jsx        # Form component for user input
-├── api.js          # API call logic
-├── index.css       # Global styles
-├── index.js        # Entry point for the app
+├── App.jsx # Main application component
+├── form.jsx # Form component for user input
+├── api.js # API call logic
+├── index.css # Global styles
+├── index.js # Entry point for the app
 
 ## API Used
+
 The app uses the REST Countries API to fetch country data. Ensure the API endpoint is correctly configured in the api.js file.
 
 ## Future Improvements
+
     Add support for searching by country code.
     Display additional details like languages and neighboring countries.
     Improve error messages for better user experience.
     Add unit tests for components and API calls.
 
 ## License
+
 This project is licensed under the MIT License. Feel free to use and modify it as needed.
 
 ## Acknowledgments
+
     Thanks to the REST Countries API for providing the data.
     Inspired by the need to learn React, Vite, and API integration.
-   ```bash
-   This README provides a clear and professional overview of your project. You can replace `<repository-url>` with the actual URL of your repository.
-   ```
+
+```bash
+https://github.com/moataz-armash/country-finder.git
+```
